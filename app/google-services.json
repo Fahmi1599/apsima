@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "440348489271",
+    "firebase_url": "https://apsimaft.firebaseio.com",
+    "project_id": "apsimaft",
+    "storage_bucket": "apsimaft.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440348489271:android:c3eeec657cef1412c871b2",
+        "android_client_info": {
+          "package_name": "com.example.apsimaft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440348489271-i54g74b417vdmhe65bmld0lqpenqenlt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.apsimaft",
+            "certificate_hash": "21dbb21e728e6e9acf8d58772d94d59896c4245e"
+          }
+        },
+        {
+          "client_id": "440348489271-qluanb4fdhp770rd2nveetismnsclnaq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPdwx0-YJXPF3-FUaKcJa8oG20svEodX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "440348489271-qluanb4fdhp770rd2nveetismnsclnaq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

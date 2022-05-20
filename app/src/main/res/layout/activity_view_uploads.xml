@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8E9"
+    tools:context=".ViewUploadsActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sp_rectangel_root2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="Back"
+        android:onClick="back"
+        android:id="@+id/btnback"
+        tools:ignore="OnClick" />
+
+
+    <TextView
+        android:id="@+id/tvupp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="0dp"
+        android:textAlignment="center"
+        android:text="List File Uploaded"
+        android:textSize="30dp" />
+
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvupp" />
+
+
+
+</RelativeLayout>

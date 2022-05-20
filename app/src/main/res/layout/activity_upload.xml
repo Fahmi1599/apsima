@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8E9">
+
+    <Button
+        android:id="@+id/btn_selectfile"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Upload File"
+        android:textAllCaps="false"
+        android:layout_centerVertical="true"
+        android:background="#FFF"
+        android:textColor="#808080"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvdoang"
+        android:text="Silahkan upload File mu disini "
+        android:layout_above="@+id/btn_selectfile"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvfileselected"
+        android:text="No file is selected"
+        android:layout_below="@+id/btn_selectfile"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="60dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvdoang"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="3dp"
+        android:src="@drawable/apsimaa" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:id="@+id/btn_upload"
+        android:text="UPLOAD"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/tvfileselected"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sp_rectangel_root"
+        android:text="Back To Menu"
+        android:layout_below="@+id/btn_upload"
+        android:layout_marginTop="50dp" />
+
+</RelativeLayout>
